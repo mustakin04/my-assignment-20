@@ -145,3 +145,108 @@ p {
     margin-top: 32px;
 }
 /* CONTACT PAET END */
+/* ROOTER PART START */
+#footer {
+    padding-top: 100px;
+    background-color: #1C1E53;
+}
+
+#footer .footer-logo p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+    padding-top: 15px;
+    width: 399px;
+    height: 56px;
+    margin-bottom: 86px;
+}
+
+#footer .footer-logo .footer-email {
+    display: flex;
+    background-color: #FCD980;
+    height: 95px;
+    width: 517px;
+}
+
+#footer .footer-logo .footer-email .me h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1B1C2B;
+}
+
+#footer .footer-logo .footer-email .me p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1B1C2B;
+}
+
+#footer .footer-logo .footer-email .call {
+    padding-left: 29px;
+}
+
+#footer .footer-logo .footer-email .call h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1B1C2B;
+}
+
+#footer .footer-logo .footer-email .call p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1B1C2B;
+}
+
+#footer .footer-lets h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600px;
+    font-size: 49px;
+    line-height: 64px;
+    color: white;
+}
+
+#footer .footer-lets p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+    width: 399px;
+    height: 84px;
+    margin-top: 14px;
+    margin-bottom: 28px;
+}
+
+/* ROOTER PART END*/
+#last {
+    background-color: white;
+    padding: 15px 0;
+}
+
+#last .last-details {
+    display: flex;
+    justify-content: space-between;
+}
+#last .last-details .copy{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1B1C2B;
+    padding-top: 12px;
+}
+#last .last-details .items a {
+    padding-left: 32px;
+    color: #1B1C2B;
+}
+
+/* LAST PART STAT */
