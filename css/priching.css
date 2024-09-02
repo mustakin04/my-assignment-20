@@ -128,6 +128,23 @@ p {
 /* PRICING PART START */
 #pricing{
     padding: 128px 0px;
+    position: relative;
+    overflow: hidden;
+}
+#pricing .container:hover .big-circle{
+    display: block;
+}
+#pricing .container .big-circle{
+    position: absolute;
+    top: -247px;
+    left: 180px;
+    width: 1151px;
+    height: 1151px;
+    border-radius: 50%;
+    background-color: #ffffff7c;
+    display: none;
+    
+
 }
 #pricing .container h2{
     font-family: "Poppins", sans-serif;
@@ -148,11 +165,16 @@ p {
     margin: 0 auto;
     text-align: center;
 }
-#pricing .container .col-lg-4{
+#pricing .container .col-lg-4 {
+    margin-top: 64px;
+}
+#pricing .container .col-lg-4 .col-wraper{
     background-color: #F4F6FC;
     padding: 64px 0px 62px 48px;
     border-radius: 12px;
-    margin-top: 64px;
+}
+#pricing .container .col-lg-4 .col-wraper:hover{
+    background-color: #1c1e5358;
 }
 #pricing .container .col-lg-4 .design{
     display: flex;
@@ -209,7 +231,6 @@ p {
 }
 #pricing .container .col-lg-4 .item{
     display: flex;
-   
 }
 #pricing .container .col-lg-4 .item >i{
  color: gray;
@@ -225,6 +246,9 @@ p {
 #pricing .container .col-lg-4 .button{
   text-align: center;
   margin-top: 79px;
+}
+#pricing .container .col-lg-4 .button a:hover{
+background-color: #FCD980;
 }
 #pricing .container .col-lg-4 .button >a{
     font-weight: 600px;
