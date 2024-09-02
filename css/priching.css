@@ -1,0 +1,238 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 0.8px;
+}
+
+/* NAVBAR PART START */
+.navbar {
+    background-color: #1C1E53 !important;
+    padding-top: 26px;
+    padding-bottom: 24px;
+}
+
+.navbar .nav-item {
+    padding-left: 20px;
+}
+
+.navbar .nav-link {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    color: #BBBBCB;
+    line-height: 28px;
+}
+
+.navbar .nav-item a:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+.navbar .button a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    color: #BBBBCB;
+    padding: 16px 48px;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+.navbar .button a:hover {
+    background-color: rgb(20, 202, 159);
+    transition: 0.8s;
+}
+
+/* BANNER PART SEND */
+#banner {
+    background-color: #1C1E53 !important;
+    padding: 127px 0;
+}
+
+#banner h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600px;
+    font-size: 54px;
+    line-height: 74px;
+    color: white;
+    width: 582px;
+    height: 222px;
+}
+
+#banner p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+    width: 562px;
+    height: 56px;
+    padding-top: 24px;
+    margin-bottom: 48px;
+}
+
+#banner .nav-btn {
+    display: flex;
+    align-items: center;
+}
+
+#banner .nav-btn a {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1B1C2B;
+    padding: 16px 56px;
+    background-color: #FCD980;
+    border-radius: 100px;
+
+}
+
+#banner .nav-btn h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 16px;
+}
+
+#banner .nav-btn i {
+    color: white;
+}
+
+#banner .ban-img {
+    text-align: right;
+}
+/* PRICING PART START */
+#pricing{
+    padding: 128px 0px;
+}
+#pricing .container h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600px;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    text-align: center;
+}
+#pricing .container >p{
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    width: 562px;
+    height: 56px;
+    padding-top: 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+#pricing .container .col-lg-4{
+    background-color: #F4F6FC;
+    padding: 64px 0px 62px 48px;
+    border-radius: 12px;
+    margin-top: 64px;
+}
+#pricing .container .col-lg-4 .design{
+    display: flex;
+    align-items: center;
+}
+#pricing .container .col-lg-4 .design >h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600px;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+    text-align: left;
+}
+#pricing .container .col-lg-4 .design p{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 28px;
+    color: blue;
+    text-align: left;
+}
+#pricing .container .col-lg-4 .text >h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+    text-align: left;
+}
+#pricing .container .col-lg-4 .text >p{
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    text-align: left;
+    width: 281px;
+    height: 56px;
+    margin-bottom: 78px;
+}
+#pricing .container .col-lg-4 .list{
+    display: flex;
+   
+}
+#pricing .container .col-lg-4 .list >i{
+ color: #97DAAD;
+ padding-right: 6px;
+ padding-top: 7.5px;
+}
+#pricing .container .col-lg-4 .list >p{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    
+}
+#pricing .container .col-lg-4 .item{
+    display: flex;
+   
+}
+#pricing .container .col-lg-4 .item >i{
+ color: gray;
+ padding-right: 6px;
+ padding-top: 7.5px;
+}
+#pricing .container .col-lg-4 .item >p{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+#pricing .container .col-lg-4 .button{
+  text-align: center;
+  margin-top: 79px;
+}
+#pricing .container .col-lg-4 .button >a{
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    padding: 16px 78px;
+    border-radius: 100px;
+    background-color: #282938;
+}
+/* RRICIG PART END */
